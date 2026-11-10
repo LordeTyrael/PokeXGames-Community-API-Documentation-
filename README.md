@@ -4,7 +4,7 @@ The game talks to a JSON web API for account and community data, on the same hos
 
 ## 1. The Scraper
 
-`pxgscraper.py` is a single file of 189 lines and imports nothing outside the standard library. No config module, no database, no install step. It logs in once, walks every category and world, and writes one JSON file.
+`pxgscraper.py` is a single file of 144 lines and imports nothing outside the standard library. No config module, no database, no install step. It logs in once, walks every category and world, and writes one JSON file.
 
 ```
 set PXG_EMAIL=you@example.com
